@@ -11,64 +11,64 @@ function renderMovies(array) {
         // Creating the elements
         let liElement = document.createElement("li");
         let imgElement = document.createElement("img");
-        imgElement.setAttribute("url", item.ImageUrl);
-        imgElement.width = "200";
-        imgElement.height = "200";
+        // imgElement.setAttribute("src", `https://i3.ytimg.com/vi/${item.ytid}/maxresdefault.jpg`);
+        imgElement.setAttribute("alt", item.fulltitle);
         let headingElement = document.createElement("h1");
-        let wrapper1Element = document.createElement("div");
         let fullTitleElement = document.createElement("p");
-        let yearElement = document.createElement("time");
-        let textboxElement = document.createElement("div");
-        let summaryElement = document.createElement("p");
-        let wrapper3Element = document.createElement("div");
-        let ratingElement = document.createElement("strong");
-        let runtimeElement = document.createElement("time");
+        let yearElement = document.createElement("p");
+        let categoryElement = document.createElement("p");
         let langElement = document.createElement("p");
+        let ratingElement = document.createElement("strong");
+        // let linkElement = document.createElement("a");
 
 
         // Add classlist
         liElement.classList.add("movies__items");
         imgElement.classList.add("movies__img");
         headingElement.classList.add("movies__heading");
-        wrapper1Element.classList.add("movies__wrapper");
         fullTitleElement.classList.add("movies__full-title");
         yearElement.classList.add("movies__year");
-        textboxElement.classList.add("movies__textbox");
-        summaryElement.classList.add("movies__summary");
-        wrapper3Element.classList.add("movies__wrapper");
-        ratingElement.classList.add("movies__rating");
-        runtimeElement.classList.add("movies__runtime");
+        categoryElement.classList.add("movies__category");
         langElement.classList.add("movies__lang");
+        ratingElement.classList.add("movies__rating");
+        // linkElement.classList.add("movies__link");
 
 
         // Adding textContents
         headingElement.textContent = item.Title;
-        fullTitleElement.textContent = item.fulltitle;
-        yearElement.textContent = item.movie_year;
-        summaryElement.textContent = item.summary;
-        ratingElement.textContent = item.imdb_rating;
-        runtimeElement.textContent = item.runtime;
-        langElement.textContent = item.language;
+        fullTitleElement.textContent = `Movie fulltitle: ${item.fulltitle}`;
+        yearElement.textContent = `Movie year: ${item.movie_year}`;
+        categoryElement.textContent = `Categories: ${item.Categories}`
+        langElement.textContent = `Movie language: ${item.language}`;
+        ratingElement.textContent = `Movie rating: ${item.imdb_rating}`;
+        // linkElement.textContent = item.ytid;
 
 
         // Appending the elements
-        liElement.append(imgElement, headingElement,  wrapper1Element, textboxElement, wrapper3Element, langElement);
-        wrapper1Element.append(fullTitleElement, yearElement);
-        textboxElement.append(summaryElement);
-        wrapper3Element.append(ratingElement, runtimeElement);
+        liElement.append(imgElement, headingElement, fullTitleElement, yearElement, categoryElement, langElement, ratingElement);
         elList.appendChild(liElement);
     });
 };
 renderMovies(movies);
 
-elSearch.addEventListener("keyup", function(evt) {
-    evt.preventDefault();
-
+elSearch.addEventListener("keyup", function () {
     let searchValue = elSearch.value.trim().toLowerCase();
 
     let filtered = movies.filter(function(item) {
-        let searchName = item.Title.toLowerCase();
+        let searchName = item.fulltitle.toLowerCase();
         return searchName.includes(searchValue);
     });
     renderMovies(filtered);
+});
+
+elForm.addEventListener("submit", function(evt) {
+    evt.preventDefault();
+
+    let elFromValue = elFrom.value;
+    let elToValue = elTo.value;
+
+    let result = movies.filter(function(item) {
+        return elFromValue >= item.movie_year || elToValue >= item.movie_year ;
+    });
+    renderMovies(result);
 });
