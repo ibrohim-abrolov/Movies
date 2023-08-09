@@ -5,7 +5,7 @@ const movies = [
 		movie_year: 2017,
 		Categories: 'Uncategorized',
 		summary:
-			'Patton Oswald, despite a personal tragedy, produces his best standup yet. Focusing on the tribulations of the Trump era and life after the loss of a loved one, Patton Oswald continues his journey to contribute joy to the world.',
+			'Patton Oswald, despite a personal tragedy, produces his best standup yet. Focusing on the tribulations of the Trump era and life after the loss of a loved one, contribute joy to the world.',
 		ImageURL:
 			'https://hydramovies.com/wp-content/uploads/2018/04/Patton-Oswalt-Annihilation-Movie-Poster.jpg',
 		imdb_id: 'tt7026230',
@@ -30,13 +30,13 @@ const movies = [
 		ytid: 'jwD04NsnLLg',
 	},
 	{
-		Title: "Mickey's Magical Christmas: Snowed in at the House of Mouse",
+		Title: "Mickey's Christmas: Snowed House of Mouse",
 		fulltitle:
-			"Mickey's Magical Christmas: Snowed in at the House of Mouse (2001)",
+			"Mickey's: Snowed in at the House of Mouse (2001)",
 		movie_year: 2001,
 		Categories: 'Adventure|Animation|Comedy|Family|Fantasy',
 		summary:
-			"After everyone is snowed in at the House of Mouse, Mickey suggests they throw their own Christmas party. Everyone is happy, except for Donald who just isn't in to the Christmas spirit. So Mickey shows a series of cartoons that show just what Christmas is all about. It features a star studded cast of Disney characters from everyone's favorite animated Disney movies.",
+			"After everyone is snowed So Mickey shows a series of cartoons that show just what Christmas is all about. Its favorite animated Disney movies.",
 		ImageURL:
 			'https://hydramovies.com/wp-content/uploads/2018/04/Mickeys-Magical-Christmas-Snowed-in-at-the-House-of-Mouse-Movie-Poster.jpg',
 		imdb_id: 'tt0300195',
@@ -51,7 +51,7 @@ const movies = [
 		movie_year: 2001,
 		Categories: 'Animation|Comedy|Family|Fantasy|Horror',
 		summary:
-			"The villains from the popular animated Disney films are gathered at the House of Mouse with plans to take over. Soon, the villains take over the house and kick out Mickey, Donald and Goofy. It's all up to Mickey and his friends to overthrow evil and return the House of Mouse to normal--or as close to normal as it get's.",
+			"The villains from the popular animated Disney films are gathered at the House of Mouse with plans to take over. Donald and Goofy. It's all up to Mickey and his friends to overthrow evil and return the House of Mouse to normal--or as close to normal as it get's.",
 		ImageURL:
 			'https://hydramovies.com/wp-content/uploads/2018/04/Mickeys-House-of-Villains-Movie-Poster.jpg',
 		imdb_id: 'tt0329374',
@@ -66,7 +66,7 @@ const movies = [
 		movie_year: 2017,
 		Categories: 'Drama',
 		summary:
-			'In the cruel world of junior high, Edwin suffers in a state of anxiety and alienation alongside his only friend, Flake. Misunderstood by their families and demoralized at school daily, their fury simmers quietly until an idea for vengeance offers them a terrifying release. Based on the acclaimed novel "Project X" by Jim Shepard, this unflinching look at adolescence explores how the powerful bonds of childhood friendship and search for belonging can become a matter of life or death.',
+			'In the cruel world of junior high, Flake. their fury simmers quietly until an idea for vengeance offers them a terrifying release. Based on the acclaimed novel "Project X" by Jim Shepard, this unflinching look at adolescence explores how the powerful bonds of childhood friendship and search for belonging can become a matter of life or death.',
 		ImageURL:
 			'https://hydramovies.com/wp-content/uploads/2018/04/And-Then-I-Go-Movie-Poster.jpg',
 		imdb_id: 'tt2018111',
@@ -81,7 +81,7 @@ const movies = [
 		movie_year: 2000,
 		Categories: 'Animation|Comedy|Family|Sport',
 		summary:
-			"It's a big time in Max's life. He's college bound with his friends and finally free of his embarrassing father as he strives to be a top contender for the X-Games. Unfortunately, Goofy loses his job and learns that he cannot get another job without a college degree. To his son's mortification, Goofy decides to join him in his campus to get that degree. Desperate to distract his father, Max talks him into joining the competing Gamma Fraternity team and introduces him to a wonderful librarian who shares his nostalgic love for 1970's pastimes. Unfortunately, things do not go according to plan as events put this father-son relationship to the test.",
+			"It's a big time in Max's life. Unfortunately, Goofy loses his job and learns that he cannot get another job without a college degree.  decides to join him in his campus to get that degree. Desperate to distract his father, Max talks him into joining the competing Gamma Fraternity team and introduces him to a wonderful librarian who shares his nostalgic love for 1970's pastimes. Unfortunately, things do not go according to plan as events put this father-son relationship to the test.",
 		ImageURL:
 			'https://hydramovies.com/wp-content/uploads/2018/04/An-Extremely-Goofy-Movie-Movie-Poster.jpg',
 		imdb_id: 'tt0208185',
@@ -96,7 +96,7 @@ const movies = [
 		movie_year: 2018,
 		Categories: 'Adventure|Animation|Comedy|Family|Fantasy',
 		summary:
-			"Based on the books by Beatrix Potter: Peter Rabbit (James Corden;) his three sisters: Flopsy (Margot Robbie,) Mopsy (Elizabeth Debicki) and Cotton Tail (Daisy Ridley) and their cousin Benjamin (Colin Moody) enjoy their days harassing Mr McGregor in his vegetable garden. Until one day he dies and no one can stop them roaming across his house and lands for a full day or so. However, when one of Mr McGregor's relatives inherits the house and goes to check it out, he finds much more than he bargained for. What ensues, is a battle of wills between the new Mr McGregor and the rabbits. But when he starts to fall in love with Bea (Rose Byrne,) a real lover of all nature, his feelings towards them begin to change. But is it too late?",
+			"Based on enjoy their days harassing Mr McGregor in his vegetable garden.  across his house and lands for a full day or so. However, when one of Mr McGregor's relatives inherits the house and goes to check it out, he finds much more than he bargained for. What ensues, is a battle of wills between the new Mr McGregor and the rabbits. But when he starts to fall in love with Bea (Rose Byrne,) a real lover of all nature, his feelings towards them begin to change. But is it too late?",
 		ImageURL:
 			'https://hydramovies.com/wp-content/uploads/2018/04/Peter-Rabbit-Movie-Poster.jpg',
 		imdb_id: 'tt5117670',
@@ -111,7 +111,7 @@ const movies = [
 		movie_year: 2007,
 		Categories: 'Uncategorized',
 		summary:
-			'Julie\'s boyfriend Ismaël lives with her; rather than worry about the time he spends with his colleague Alice, Julie invites Alice to join them. The three walk the streets of Paris, party, read, and sleep together. Sometimes it\'s lighthearted, sometimes there are jealousies. Then death strikes. In various ways, those left come to terms with the departure and absence of a loved one: showing concern, eating together, attempting new relationships, trying to "be there" for the other. Then, the spirit returns and new commitments are possible. The romantic elements of musical comedy play in contrast to the ambivalence of the lyrics and the story.',
+			'Julie\'s boyfriend Ismaël lives with her; Julie invites Alice to join them. Sometimes it\'s lighthearted, sometimes there are jealousies. Then death strikes. In various ways, those left come to terms with the departure and absence of a loved one: showing concern. Then, the spirit returns and new commitments are possible. The romantic elements of musical comedy play in contrast to the ambivalence of the lyrics and the story.',
 		ImageURL:
 			'https://hydramovies.com/wp-content/uploads/2018/04/Love-Songs-Movie-Poster.jpg',
 		imdb_id: 'tt0996605',
@@ -126,7 +126,7 @@ const movies = [
 		movie_year: 2017,
 		Categories: 'Uncategorized',
 		summary:
-			"89 tells the incredible story of one of football's greatest triumphs: when against all odds Arsenal snatched the Championship title from Liverpool at Anfield in the last minute of the last game of the 1988/89 season. It's a universal tale of a band of brothers who, led by a charismatic and deeply respected manager, came together to defy the odds and create history. Mixing archive and previously unseen footage with revealing interviews, insights and memories from the original squad, game officials, famous fans and the people who were there on the night this is the definitive account of a watershed moment in football and a must-watch for any sports fan.",
+			"89 tells the incredible story of one of football's greatest triumphs from Liverpool at Anfield in the last minute of the last game of the 1988/89 season. Mixing archive and previously unseen footage with revealing interviews, insights and memories from the original squad, game officials, famous fans and the people who were there on the night this is the definitive account of a watershed moment in football and a must-watch for any sports fan.",
 		ImageURL:
 			'https://hydramovies.com/wp-content/uploads/2018/04/89-Movie-Poster.jpg',
 		imdb_id: 'tt7614404',
@@ -141,7 +141,7 @@ const movies = [
 		movie_year: 2011,
 		Categories: 'Drama',
 		summary:
-			"The illegitimate orphan child, 12-year-old Max, is sold by the local minister for a basket of food to the Bösiger family, who own a mountain farm. Max' initial hope of finally finding a loving home is brutally shattered: The farmer and his wife treat Max like livestock, and their son Jacob humiliates and abuses him. Only the local teacher notices the child suffering on the farm.",
+			"The illegitimate orphan child, 12-year-old Max, is sold by the local minister The farmer and his wife treat Max like livestock, and their son Jacob humiliates and abuses him. Only the local teacher notices the child suffering on the farm.",
 		ImageURL:
 			'https://hydramovies.com/wp-content/uploads/2018/04/The-Foster-Boy-Movie-Poster.jpg',
 		imdb_id: 'tt2057931',
@@ -201,7 +201,7 @@ const movies = [
 		movie_year: 2015,
 		Categories: 'Family',
 		summary:
-			'Nothing is impossible for a group of young campers, friends and enemies alike, on a weekend retreat at Camp Pinnacle. But what starts as an exciting wilderness adventure turns into trouble when a young camper goes missing and the rest of the group must set out to find him. The campers are forced to overcome their differences and band together to re-claim their weekend and make it out of the woods before dark!',
+			'Nothing is impossible for a group of young campers,  find him. The campers are forced to overcome their differences and band together to re-claim their weekend and make it out of the woods before dark!',
 		ImageURL:
 			'https://hydramovies.com/wp-content/uploads/2018/04/Secrets-in-the-Fall-Movie-Poster.jpg',
 		imdb_id: 'tt2522908',
@@ -246,7 +246,7 @@ const movies = [
 		movie_year: 2018,
 		Categories: 'Fantasy|Horror',
 		summary:
-			"Anna spends her entire childhood under the care of a mysterious man she only knows as Daddy. He keeps her locked in an attic making her fear the Wildling, a child-eating monster that roams the outside. At age 16, Anna is freed by small-town sheriff Ellen Cooper who helps her start a new life as a normal teenager. But as Anna's body begins to blossom, her childhood nightmares return with a vengeance, leading to the conclusion of a terrifying secret.",
+			"Anna spends her entire childhood under the care of a mysterious man she only knows as Daddy.child-eating monster that roams the outside. At age 16, Anna is freed by small-town sheriff Ellen Cooper who helps her start a new life as a normal teenager. But as Anna's body begins to blossom, her childhood nightmares return with a vengeance, leading to the conclusion of a terrifying secret.",
 		ImageURL:
 			'https://hydramovies.com/wp-content/uploads/2018/04/Wildling-Movie-Poster.jpg',
 		imdb_id: 'tt5085924',
@@ -291,7 +291,7 @@ const movies = [
 		movie_year: 2017,
 		Categories: 'Comedy',
 		summary:
-			'Irene must endure 2 weeks of community service at a retirement home. Following her passion for cheerleading, she secretly signs up the senior residents to audition for a dance-themed reality show to prove that you don\'t need to be physically "perfect" to be perfectly AWESOME.',
+			'Irene must endure 2 weeks of community service at a retirement home.  show to prove that you don\'t need to be physically "perfect" to be perfectly AWESOME.',
 		ImageURL:
 			'https://hydramovies.com/wp-content/uploads/2018/04/Dont-Talk-to-Irene-Movie-Poster.jpg',
 		imdb_id: 'tt5030452',
@@ -321,7 +321,7 @@ const movies = [
 		movie_year: 2018,
 		Categories: 'Documentary',
 		summary:
-			'A look at the life and career of professional wrestler André Roussimoff, who gained notoriety in the 1980s as Andre the Giant.',
+			'A look at the life and career of professional Now, Journal and one of The 100 Most Influential People on the planet by  wrestler André Roussimoff, who gained Now, Journal and one of The 100 Most Influential People on the planet by  notoriety in the 1980s as Andre the Giant.',
 		ImageURL:
 			'https://hydramovies.com/wp-content/uploads/2018/04/Andre-the-Giant-Movie-Poster.jpg',
 		imdb_id: 'tt6543420',
@@ -336,7 +336,7 @@ const movies = [
 		movie_year: 2017,
 		Categories: 'Thriller',
 		summary:
-			'A pharmaceutical sales rep visits a small town in Louisiana on business. He finds himself in a dark world of corruption and murder with 24 hours to live, running from the police, the mob and a sheriff that wants him dead.',
+			'A pharmaceutical sales rep visits a small Now, Journal and one of The 100 Most Influential People on the planet by  town in Louisiana on business. with 24 hours to live, running Now, Journal and one of The 100 Most Influential People on the planet by  from the police, the mob and a sheriff that wants him dead.',
 		ImageURL:
 			'https://hydramovies.com/wp-content/uploads/2018/04/Dead-on-Arrival-Movie-Poster.jpg',
 		imdb_id: 'tt5903088',
@@ -351,7 +351,7 @@ const movies = [
 		movie_year: 2017,
 		Categories: 'Documentary',
 		summary:
-			"Bjarke Ingels started out as a young man dreaming of creating cartoons. Now, he has been named \"one of architecture's biggest innovators\" by The Wall Street Journal and one of The 100 Most Influential People on the planet by TIME Magazine. BIG TIME follows Bjarke during the course of 7 years (2009-2016), while he struggles to finish his biggest project so far. We are let into Bjarke's creative processes as well as the endless compromises that his work entails, and we are on the side when his personal life starts putting pressure on him, too. In addition to the recently opened architectural marvel VIA 57 West (625 West 57th Street), Bjarke Ingels' company Bjarke Ingels Group (BIG) was given the task of designing and building one of the skyscrapers which will replace Two World Trade Center in Manhattan. While Bjarke is creating these buildings, which will change the New York skyline, he is hit by health-related issues. The Film offers an intimate look into the innovative and ambitious ...",
+			"Bjarke Ingels started out as a young man dreaming of creating  as well as the endless compromises that his work entails, and we are on the side when his personal life starts putting pressure on him, too. In addition to the recently opened architectural marvel VIA 57 West (625 West 57th Street), Bjarke Ingels' company Bjarke Ingels Group (BIG) was given the task of designing and building one of the skyscrapers which will replace Two World Trade Center in Manhattan. While Bjarke is creating these buildings, which will change the New York skyline, he is hit by health-related issues. The Film offers an intimate look into the innovative and ambitious ...",
 		ImageURL:
 			'https://hydramovies.com/wp-content/uploads/2018/04/Big-Time-Movie-Poster.jpg',
 		imdb_id: 'tt7630164',
@@ -396,7 +396,7 @@ const movies = [
 		movie_year: 2017,
 		Categories: 'Adventure|Drama|Western',
 		summary:
-			"In 1892, after nearly two decades of fighting the Cheyenne, the Apache, and the Comanche natives, the United States Cavalry Captain and war hero, Joseph Blocker, is ordered to escort the ailing Cheyenne chief, Yellow Hawk--his most despised enemy--to his ancestral home in Montana's Valley of the Bears. Nauseated with a baleful anger, Joseph's unwelcome final assignment in the feral American landscape is further complicated, when the widowed settler, Rosalie Quaid, is taken in by the band of soldiers, as aggressive packs of marauding Comanches who are still on the warpath, are thirsty for blood. In a territory crawling with hostiles, can the seasoned Captain do his duty one last time?",
+			"In 1892, after nearly two decades of fighting the Cheyenne, the Apache, and the Comanche natives,  enemy--to his ancestral home in Montana's Valley of the Bears. Nauseated with a baleful anger, Joseph's unwelcome final assignment in the feral American landscape is further complicated, when the widowed settler, Rosalie Quaid, is taken in by the band of soldiers, as aggressive packs of marauding Comanches who are still on the warpath, are thirsty for blood. In a territory crawling with hostiles, can the seasoned Captain do his duty one last time?",
 		ImageURL:
 			'https://hydramovies.com/wp-content/uploads/2018/04/Hostiles-Movie-Poster.jpg',
 		imdb_id: 'tt5478478',
@@ -411,7 +411,7 @@ const movies = [
 		movie_year: 2018,
 		Categories: 'Action|Sci-Fi|Thriller',
 		summary:
-			'In the epic finale to The Maze Runner Saga, Thomas leads his group of escaped Gladers on their final and most dangerous mission yet. To save their friends, they must break into the legendary last city, a WCKD controlled labyrinth that may turn out to be the deadliest maze of all. Anyone who makes it out alive will get the answers to the questions the Gladers have been asking since they first arrived in the maze. Will Thomas and the crew make it out alive? Or will Ava Paige get her way?',
+			'In the epic finale to The Maze Runner Saga, Thomas leads his group of escaped Gladers on their final and most dangerous mission yet. Turn out to be the deadliest maze of all. Anyone who makes it out alive will get the answers to the questions the Gladers have been asking since they first arrived in the maze. Will Thomas and the crew make it out alive? Or will Ava Paige get her way?',
 		ImageURL:
 			'https://hydramovies.com/wp-content/uploads/2018/04/Maze-Runner-The-Death-Cure-Movie-Poster.jpg',
 		imdb_id: 'tt4500922',
@@ -426,7 +426,7 @@ const movies = [
 		movie_year: 2018,
 		Categories: 'Action|Crime|Drama|Mystery|Thriller',
 		summary:
-			"A gritty L.A crime saga which follows the intersecting and often personally connected lives of an elite unit of the LA County Sheriff's Dept. and the state's most successful bank robbery crew as the outlaws plan a seemingly impossible heist on the Federal Reserve Bank of downtown Los Angeles.",
+			"A gritty L.A crime saga which follows and the state's most successful bank robbery crew as the outlaws plan a seemingly impossible heist on the Federal Reserve Bank of downtown Los Angeles.",
 		ImageURL:
 			'https://hydramovies.com/wp-content/uploads/2018/04/Den-of-Thieves-Movie-Poster.jpg',
 		imdb_id: 'tt1259528',
@@ -441,7 +441,7 @@ const movies = [
 		movie_year: 2017,
 		Categories: 'Action|Crime|Thriller',
 		summary:
-			'The son (Lee Jong-Suk) of a high-ranking North Korean official is suspected of committing serial murders around the world. To stop the killer, South Korea, North Korea and Interpol chase after him.',
+			'The son (Lee Jong-Suk) of a high-ranking North Korean official is suspected of committing  South Korea, North Korea and Interpol chase after him.',
 		ImageURL:
 			'https://hydramovies.com/wp-content/uploads/2018/04/V.I.P.-Movie-Poster.jpg',
 		imdb_id: 'tt6413410',
@@ -456,7 +456,7 @@ const movies = [
 		movie_year: 2007,
 		Categories: 'Comedy|Music',
 		summary:
-			"The up-and-down-and-up-again story of musician Dewey Cox, whose songs would change a nation. On his rock 'n roll spiral, Cox sleeps with 411 women, marries three times, has 36 kids, stars in his own 70s TV show, collects friends ranging from Elvis to the Beatles to a chimp, and gets addicted to - and then kicks - every drug known to man; but despite it all, Cox grows into a national icon and eventually earns the love of a good woman - longtime backup singer Darlene.",
+			"The up-and-down-and-up-again story of musician Dewey Cox, whose songs would change a show, collects friends ranging from Elvis to the Beatles to a  kicks - every drug known to man; but despite it all, Cox grows into a national icon and eventually earns the love of a good woman - longtime backup singer Darlene.",
 		ImageURL:
 			'https://hydramovies.com/wp-content/uploads/2018/04/Walk-Hard-The-Dewey-Cox-Story-Movie-Poster.jpg',
 		imdb_id: 'tt0841046',
@@ -471,7 +471,7 @@ const movies = [
 		movie_year: 2003,
 		Categories: 'Comedy|Family|Fantasy|Music|Romance',
 		summary:
-			"The wide generation gap between Tess Coleman and her teenage daughter Anna is more than evident. They simply cannot understand each other's preferences. On a Thursday night they have a big argument in a Chinese restaurant. Both receive a fortune cookie each from the restaurant owner's mother which causes them to switch bodies next day. As they adjust with their new personalities, they begin to understand each other more and eventually it's the mutual self-respect that sorts the things out.",
+			"The wide generation gap between Tess Coleman and her teenage daughter Anna is more than evident. Night they have a big argument in a Chinese restaurant. Both receive a fortune cookie each from the restaurant owner's mother which causes them to switch bodies next day. As they adjust with their new personalities, they begin to understand each other more and eventually it's the mutual self-respect that sorts the things out.",
 		ImageURL:
 			'https://hydramovies.com/wp-content/uploads/2018/04/Freaky-Friday-Movie-Poster.jpg',
 		imdb_id: 'tt0322330',
