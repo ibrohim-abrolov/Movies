@@ -48,11 +48,13 @@ input {
     line-height: 20px;
     border-radius: 10px;
     border: 1px solid greenyellow;
+    transition: border 0.4s ease;
 }
 
-input:focus {
-    border: none;
+input:hover {
+    border: 1px solid darkcyan;
 }
+
 
 .form__btn {
     padding: 10px 19px;
@@ -65,6 +67,7 @@ input:focus {
 
 .form__btn:hover {
     background-color: yellow;
+    color: darkcyan;
 }
 
 .movies__list {
@@ -78,7 +81,7 @@ input:focus {
     margin-bottom: 40px;
     margin-right: 26px;
     padding: 40px 5px 35px 5px;
-    background-color: #ffe4c4;
+    background-color: #9acd32;
     border-radius: 10px;
 }
 
@@ -87,54 +90,150 @@ input:focus {
 }
 
 .movies__img {
-    width: 280px;
-    height: 170px;
+    width: 400px;
+    height: 200px;
     margin: 0 auto 15px auto;
+    border-radius: 5px;
 }
 
 .movies__heading {
-    max-width: 400px;
+    min-width: 400px;
     width: 100%;
     margin: 0 auto 25px auto;
-    font-size: 22px;
+    font-size: 24px;
     text-align: center;
+    color: darkcyan;
+    transition: color 0.4s ease;
+}
+
+.movies__heading:hover {
+    color: aqua;
+}
+
+.movies__summary {
+    margin: 0 0 15px 10px;
+    font-size: 20px;
+    font-weight: 700;
     color: #fff;
 }
 
 .movies__full-title {
     margin: 0 0 15px 10px;
     font-size: 20px;
-    color: #9acd32;
+    color: #fff;
 }
 
 .movies__year {
     margin-bottom: 20px;
     margin-left: 10px;
     font-size: 20px;
-    color: #9acd32;
+    color: #fff;
 }
 
 .movies__category {
     margin-bottom: 20px;
     margin-left: 10px;
     font-size: 20px;
-    color: #9acd32;
+    color: #fff;
 }
 
 .movies__lang {
     margin: 0 0 15px 10px;
     font-size: 20px;
-    color: #9acd32;
+    color: #fff;
 }
 
 .movies__rating {
     margin: 15px 0 5px 10px;
     font-size: 20px;
     font-weight: 700;
-    color: #9acd32;
+    color: #fff;
 }
 
 .movies__link {
-    font-size: 20px;
+    display: block;
+    width: 300px;
+    margin: 35px auto 0 auto;
+    padding: 9px 5px;
+    font-size: 22px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: darkcyan;
+    border: 2px solid aqua;
+    border-radius: 5px;
     text-decoration-line: none;
+    transition: background-color 0.4s ease, color 0.4s ease;
 }
+
+.movies__link:hover {
+    background-color: darkcyan;
+    color: aqua;
+}
+
+
+@media only screen and (max-width: 375px) {
+    .form {
+        margin: 20px 0;
+    }
+
+    input {
+        margin-right: 0;
+        margin-bottom: 5px;
+        padding: 5px;
+    }
+
+    .movies__list {
+        flex-wrap: wrap;
+    }
+    
+    .movies__items {
+        min-width: 330px;
+        width: 100%;
+        margin: 0 auto 15px auto;
+        padding: 5px;
+    }
+    
+    .movies__img {
+        width: 220px;
+        height: 150px;
+    }
+    
+    .movies__heading {
+        font-size: 16px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+    
+    .movies__full-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .movies__category {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .movies__year {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .movies__lang {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .movies__rating {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .movies__link {
+        min-width: 200px;
+        width: 100%;
+        font-size: 16px
+    }
+    
+};
