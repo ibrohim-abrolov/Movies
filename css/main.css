@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #ecf0f1;
+}
+
+img {
+    display: block;
+    height: auto;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.site-main {
+    flex-grow: 1;
+}
+
+
+.movies__items {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    padding: 20px 5px 20px 5px;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    transition: transform 0.4s ease;
+    overflow: hidden;
+}
+
+.movies__items:hover {
+    /* background-color: darkcyan; */
+     transform: scale(1.1);
+}
+
+.movies__items:nth-child(3n) {
+    margin-right: 0;
+}
+
+.movies__img {
+    width: 320px;
+    height: 170px;
+    margin: 0 auto 15px auto;
+    border-radius: 5px;
+}
+
+.movies__heading {
+    font-size: 23px;
+    text-align: center;
+    color: #000;
+    transition: color 0.4s ease;
+}
+
+.movies__summary {
+    margin: 0 0 10px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1f1f21;
+}
+
+.movies__full-title {
+    margin: 0 0 10px 10px;
+    font-size: 20px;
+    color:  #1f1f21;
+}
+
+.movies__year {
+    margin-bottom: 15px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #1f1f21;
+}
+
+.movies__category {
+    margin-bottom: 15px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #1f1f21;
+}
+
+.movies__lang {
+    margin: 0 0 10px 10px;
+    font-size: 20px;
+    color: #1f1f21;
+}
+
+.movies__rating {
+    margin: 0px 0 5px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1f1f21;
+} 
+
+.modal-header {
+    height: 70px !important;
+    background-color: yellow !important;
+}
+
+.modal-title {
+    justify-content: center !important;
+}
+
+.bookmark-wrapper {
+    padding: 25px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.bookmark-remove {
+    margin: 0 auto
+}

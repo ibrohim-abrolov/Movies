@@ -5,98 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movies exam</title>
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
+    
     <main class="site-main">
         <div class="container">
-            <form class="form">
-                <input class="form__search" type="search" placeholder="Search movie..." name="user_search">
-                <input class="form__from" type="number" name="user_form-year" placeholder="From year.." aria-label="from year">
-                <input class="form__to" type="number" name="user_to-year" placeholder="To year.." aria-label="to year">
-                <button class="form__btn" type="submit">
+            <form class="form d-flex align-items-center gap-2 mt-5 mb-5">
+                <input class="form__search form-control w-25" type="search" placeholder="Search movie..." name="user_search">
+                <input class="form__from form-control w-25" type="number" name="user_form-year" placeholder="From year.." aria-label="from year">
+                <input class="form__to form-control w-25" type="number" name="user_to-year" placeholder="To year.." aria-label="to year">
+                <button class="form__btn btn btn-secondary" type="submit">
                     Search
                 </button>
             </form>
-            <ul class="movies__list">
-                <!-- <li class="movies__items">
-                    <img class="movies__img" src="" alt="movie photos"
-                    width="200"
-                    height="200">
-                    <h1 class="movies__heading"></h1>
-                    <div class="movies__wrapper">
-                        <p class="movies__full-title"></p>
-                        <time class="movies__year"></time>
+
+            <div class="list-wrapper d-flex justify-content-between pt-5">
+                <ul class="movies__list d-flex flex-wrap column-gap-5 w-75">
+                </ul>
+
+                <div class="bookmark-wrapper w-25">
+                    <h2 class="bookmark-title text-center mt-2 mb-3">
+                        Save movies
+                    </h2>
+                    <ul class="bookmark-list"></ul>
+                </div>
+            </div>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="d-inline-block btn btn-primary">Save changes</button>
+                        </div>
                     </div>
-                    <div class="movies__textbox">
-                        <p class="movies__summary"></p>
-                    </div>
-                    <div class="movies__wrapper">
-                        <strong class="movies__rating"></strong>
-                        <time class="movies__runtime"></time>
-                    </div>
-                    <p class="movies__lang"></p>
-                </li>
-                <li class="movies__items">
-                    <img class="movies__img" src="" alt="movie photos"
-                    width="200"
-                    height="200">
-                    <h1 class="movies__heading"></h1>
-                    <div class="movies__wrapper">
-                        <p class="movies__full-title"></p>
-                        <time class="movies__year"></time>
-                    </div>
-                    <div class="movies__textbox">
-                        <p class="movies__summary"></p>
-                    </div>
-                    <div class="movies__wrapper">
-                        <strong class="movies__rating"></strong>
-                        <time class="movies__runtime"></time>
-                    </div>
-                    <p class="movies__lang"></p>
-                </li>
-                <li class="movies__items">
-                    <img class="movies__img" src="" alt="movie photos"
-                    width="200"
-                    height="200">
-                    <h1 class="movies__heading"></h1>
-                    <div class="movies__wrapper">
-                        <p class="movies__full-title"></p>
-                        <time class="movies__year"></time>
-                    </div>
-                    <div class="movies__textbox">
-                        <p class="movies__summary"></p>
-                    </div>
-                    <div class="movies__wrapper">
-                        <strong class="movies__rating"></strong>
-                        <time class="movies__runtime"></time>
-                    </div>
-                    <p class="movies__lang"></p>
-                </li>
-                <li class="movies__items">
-                    <img class="movies__img" src="" alt="movie photos"
-                    width="200"
-                    height="200">
-                    <h1 class="movies__heading"></h1>
-                    <div class="movies__wrapper">
-                        <p class="movies__full-title"></p>
-                        <time class="movies__year"></time>
-                    </div>
-                    <div class="movies__textbox">
-                        <p class="movies__summary"></p>
-                    </div>
-                    <div class="movies__wrapper">
-                        <strong class="movies__rating"></strong>
-                        <time class="movies__runtime"></time>
-                    </div>
-                    <p class="movies__lang"></p>
-                </li> -->
-            </ul>
+                </div>
+            </div>
         </div>
     </main>
-
-    <script src="./movies.js"></script>
-    <script src="./main.js"></script>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/movies.js"></script>
+    <script src="js/main.js"></script>
+    
 </body>
 </html>
